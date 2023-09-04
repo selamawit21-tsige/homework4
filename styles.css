@@ -76,62 +76,8 @@
   .project-desciption {
     padding: 120px 60px;
   }
-  .bg-light{
-    background-color: #f8f9fa;
-  }
-  .fixed-top{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-  .navbar{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .container{
-    width: 100%;
-  }
-  .navbar-light .navbar-brand{
-    color: rgba(0,0,0,.9);
-  }
-  .navbar-nav{
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-  }
-  ul{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-  }
-  li{
-    display: list-item;
-    text-align: -webkit-match-parent;
-  }
-  .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-}
 
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
+ 
   @media (max-width: 900px) {
     h1 {
       font-size: 44px;
